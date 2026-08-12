@@ -1,0 +1,32 @@
+Gene_ID,Module_ID,Gene_symbol,Enzyme_name,EC_number,KEGG_KO,Reaction_role,Interpretation,Notes
+GC001,FM01,glk,Glucokinase,2.7.1.2,K00845,Glucose to glucose-6-phosphate,Entry into glycolysis,May be replaced by PTS-mediated phosphorylation
+GC002,FM01,pgi,Glucose-6-phosphate isomerase,5.3.1.9,K01810,Glucose-6-phosphate to fructose-6-phosphate,Core EMP step,
+GC003,FM01,pfk,6-phosphofructokinase,2.7.1.11,K00850,"Fructose-6-phosphate to fructose-1,6-bisphosphate",Key committed EMP step,Important discriminator of complete EMP capacity
+GC004,FM01,fba,Fructose-bisphosphate aldolase,4.1.2.13,K01623,"Fructose-1,6-bisphosphate cleavage",Core EMP step,
+GC005,FM01,tpi,Triosephosphate isomerase,5.3.1.1,K01803,DHAP to glyceraldehyde-3-phosphate,Core EMP step,
+GC006,FM01,gap,Glyceraldehyde-3-phosphate dehydrogenase,1.2.1.12,K00134,Glyceraldehyde-3-phosphate oxidation,NADH-generating EMP step,
+GC007,FM01,pgk,Phosphoglycerate kinase,2.7.2.3,K00927,"1,3-bisphosphoglycerate to 3-phosphoglycerate",Substrate-level ATP formation,
+GC008,FM01,pgm,Phosphoglycerate mutase,5.4.2.11,K01834,3-phosphoglycerate to 2-phosphoglycerate,Core EMP step,Gene naming may vary
+GC009,FM01,eno,Enolase,4.2.1.11,K01689,2-phosphoglycerate to phosphoenolpyruvate,Core EMP step,
+GC010,FM01,pyk,Pyruvate kinase,2.7.1.40,K00873,Phosphoenolpyruvate to pyruvate,Terminal EMP ATP-generating step,
+GC011,FM02,ldh,L-lactate dehydrogenase,1.1.1.27,K00016,Pyruvate to L-lactate with NADH oxidation,Direct lactate-forming reaction,Primary candidate for LAB fermentative phenotype
+GC012,FM02,ldhD,D-lactate dehydrogenase,1.1.1.28,K03778,Pyruvate to D-lactate with NADH oxidation,Direct lactate-forming reaction,Gene nomenclature may vary among taxa
+GC013,FM03,xfp,Phosphoketolase,4.1.2.9,K01621,Xylulose-5-phosphate to glyceraldehyde-3-phosphate and acetyl-phosphate,Key phosphoketolase pathway reaction,Central marker of heterofermentative carbohydrate metabolism
+GC014,FM03,zwf,Glucose-6-phosphate dehydrogenase,1.1.1.49,K00036,Glucose-6-phosphate oxidation in oxidative pentose phosphate pathway,Generates 6-phosphogluconolactone and reducing equivalents,Supports heterofermentative pathway architecture
+GC015,FM03,pgl,6-phosphogluconolactonase,3.1.1.31,K01057,6-phosphogluconolactone to 6-phosphogluconate,Oxidative pentose phosphate pathway step,
+GC016,FM03,gnd,6-phosphogluconate dehydrogenase,1.1.1.44,K00033,6-phosphogluconate to ribulose-5-phosphate with CO2 release,Pentose phosphate pathway step,CO2-generating reaction relevant to heterofermentation
+GC017,FM03,rpe,Ribulose-phosphate 3-epimerase,5.1.3.1,K01783,Ribulose-5-phosphate interconversion,Pentose phosphate metabolism,
+GC018,FM03,rpi,Ribose-5-phosphate isomerase,5.3.1.6,K01807,Ribose-5-phosphate and ribulose-5-phosphate interconversion,Pentose phosphate metabolism,Gene family may include alternative isoenzymes
+GC019,FM04,pta,Phosphate acetyltransferase,2.3.1.8,K00625,Acetyl-CoA to acetyl-phosphate,Connects acetyl-CoA metabolism with acetate formation,May participate in several metabolic contexts
+GC020,FM04,ackA,Acetate kinase,2.7.2.1,K00925,Acetyl-phosphate to acetate with ATP formation,ATP-generating acetate branch,Important for interpreting acetate-producing fermentative output
+GC021,FM05,adhE,Bifunctional acetaldehyde-CoA and alcohol dehydrogenase,1.2.1.10/1.1.1.1,K04072,Acetyl-CoA through acetaldehyde toward ethanol,Redox-balancing ethanol branch,Bifunctional enzyme common in fermentative metabolism
+GC022,FM05,adh,Alcohol dehydrogenase,1.1.1.1,K00001,Acetaldehyde to ethanol with NADH oxidation,Terminal ethanol-forming reaction,Gene names and cofactor specificity can vary
+GC023,FM06,pfl,Pyruvate formate-lyase,2.3.1.54,K00656,Pyruvate to acetyl-CoA and formate,Alternative anaerobic pyruvate fate,Competes with lactate formation for pyruvate
+GC024,FM06,alsS,Acetolactate synthase,2.2.1.6,K01652,Pyruvate to alpha-acetolactate,Entry into acetoin and diacetyl metabolism,Relevant to alternative LAB fermentation products
+GC025,FM06,alsD,Alpha-acetolactate decarboxylase,4.1.1.5,K01575,Alpha-acetolactate to acetoin,Acetoin-forming branch,Alternative fate of pyruvate-derived carbon
+GC027,FM06,pox,Pyruvate oxidase,1.2.3.3,K00158,Pyruvate to acetyl-phosphate and CO2,Alternative pyruvate oxidation route,Often oxygen-dependent and can feed acetate production
+GC029,FM07,noxE,NADH oxidase,1.6.3.4,K17869,NADH oxidation coupled to peroxide or water formation,Alternative NAD+ regeneration route,Gene nomenclature varies among LAB
+GC030,FM07,npr,NADH peroxidase,1.11.1.1,K05910,Reduction of peroxide using NADH,Redox and oxidative-stress balancing,Supports maintenance of NAD+/NADH balance indirectly
+GC031,FM07,adhE,Bifunctional acetaldehyde-CoA and alcohol dehydrogenase,1.2.1.10/1.1.1.1,K04072,NADH-consuming reduction toward ethanol,Redox-balancing fermentative branch,Also included in FM05 because it links product formation and redox balance
+GC032,FM07,ldh,L-lactate dehydrogenase,1.1.1.27,K00016,NADH-consuming reduction of pyruvate to lactate,Major fermentative NAD+ regeneration mechanism,Also included in FM02 because it directly forms lactate
+GC033,FM07,ldhD,D-lactate dehydrogenase,1.1.1.28,K03778,NADH-consuming reduction of pyruvate to D-lactate,Fermentative NAD+ regeneration mechanism,Also included in FM02

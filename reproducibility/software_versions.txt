@@ -1,0 +1,28 @@
+LAB Genome Landscape - software environment
+Generated: Tue Aug 11 18:27:46 CEST 2026
+
+Python:
+Python 3.13.13
+
+Prokka:
+prokka 1.14.6
+
+Prokka databases:
+[18:27:46] Looking for databases in: /home/bogovid/.local/lib/prokka/db
+[18:27:46] * Kingdoms: Archaea Bacteria Viruses
+[18:27:46] * Genera: Enterococcus Escherichia Staphylococcus
+[18:27:46] * HMMs: HAMAP
+[18:27:46] * CMs: Archaea Bacteria Viruses
+
+Perl:
+
+This is perl 5, version 40, subversion 1 (v5.40.1) built for x86_64-linux-gnu-thread-multi
+
+Conda:
+conda 26.7.0
+
+Matplotlib:
+3.11.1
+
+Operating system:
+Linux Bogovid 6.18.33.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026 x86_64 GNU/Linux

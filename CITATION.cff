@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite it using these metadata."
+type: software
+title: "LAB Genome Landscape: Fermentation-associated genomic architecture in lactic acid bacteria"
+version: "1.0.0"
+date-released: "2026-08-12"
+authors:
+  - family-names: "Živković"
+    given-names: "Bogovid"
+    orcid: "https://orcid.org/0000-0002-5107-5921"
+    email: "bogovid1981@gmail.com"
+keywords:
+  - "lactic acid bacteria"
+  - "comparative genomics"
+  - "Lactiplantibacillus"
+  - "fermentation"
+  - "pyruvate metabolism"
+  - "metabolic capacity"

@@ -1,0 +1,29 @@
+Marker_ID,Gene_symbol,Gene_IDs,Module_IDs,Enzyme_name,EC_numbers,KEGG_KOs,N_catalog_entries
+UM001,glk,GC001,FM01,Glucokinase,2.7.1.2,K00845,1
+UM002,pgi,GC002,FM01,Glucose-6-phosphate isomerase,5.3.1.9,K01810,1
+UM003,pfk,GC003,FM01,6-phosphofructokinase,2.7.1.11,K00850,1
+UM004,fba,GC004,FM01,Fructose-bisphosphate aldolase,4.1.2.13,K01623,1
+UM005,tpi,GC005,FM01,Triosephosphate isomerase,5.3.1.1,K01803,1
+UM006,gap,GC006,FM01,Glyceraldehyde-3-phosphate dehydrogenase,1.2.1.12,K00134,1
+UM007,pgk,GC007,FM01,Phosphoglycerate kinase,2.7.2.3,K00927,1
+UM008,pgm,GC008,FM01,Phosphoglycerate mutase,5.4.2.11,K01834,1
+UM009,eno,GC009,FM01,Enolase,4.2.1.11,K01689,1
+UM010,pyk,GC010,FM01,Pyruvate kinase,2.7.1.40,K00873,1
+UM011,ldh,GC011;GC032,FM02;FM07,L-lactate dehydrogenase,1.1.1.27,K00016,2
+UM012,ldhD,GC012;GC033,FM02;FM07,D-lactate dehydrogenase,1.1.1.28,K03778,2
+UM013,xfp,GC013,FM03,Phosphoketolase,4.1.2.9,K01621,1
+UM014,zwf,GC014,FM03,Glucose-6-phosphate dehydrogenase,1.1.1.49,K00036,1
+UM015,pgl,GC015,FM03,6-phosphogluconolactonase,3.1.1.31,K01057,1
+UM016,gnd,GC016,FM03,6-phosphogluconate dehydrogenase,1.1.1.44,K00033,1
+UM017,rpe,GC017,FM03,Ribulose-phosphate 3-epimerase,5.1.3.1,K01783,1
+UM018,rpi,GC018,FM03,Ribose-5-phosphate isomerase,5.3.1.6,K01807,1
+UM019,pta,GC019,FM04,Phosphate acetyltransferase,2.3.1.8,K00625,1
+UM020,ackA,GC020,FM04,Acetate kinase,2.7.2.1,K00925,1
+UM021,adhE,GC021;GC031,FM05;FM07,Bifunctional acetaldehyde-CoA and alcohol dehydrogenase,1.2.1.10/1.1.1.1,K04072,2
+UM022,adh,GC022,FM05,Alcohol dehydrogenase,1.1.1.1,K00001,1
+UM023,pfl,GC023,FM06,Pyruvate formate-lyase,2.3.1.54,K00656,1
+UM024,alsS,GC024,FM06,Acetolactate synthase,2.2.1.6,K01652,1
+UM025,alsD,GC025,FM06,Alpha-acetolactate decarboxylase,4.1.1.5,K01575,1
+UM026,pox,GC027,FM06,Pyruvate oxidase,1.2.3.3,K00158,1
+UM027,noxE,GC029,FM07,NADH oxidase,1.6.3.4,K17869,1
+UM028,npr,GC030,FM07,NADH peroxidase,1.11.1.1,K05910,1

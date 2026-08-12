@@ -1,0 +1,29 @@
+Marker_ID,Gene_symbol,Gene_IDs,Module_IDs,Enzyme_name,Present_n,Total_n,Prevalence,Landscape_category
+UM020,ackA,GC020,FM04,Acetate kinase,462,462,1.0,CORE
+UM022,adh,GC022,FM05,Alcohol dehydrogenase,462,462,1.0,CORE
+UM021,adhE,GC021;GC031,FM05;FM07,Bifunctional acetaldehyde-CoA and alcohol dehydrogenase,462,462,1.0,CORE
+UM025,alsD,GC025,FM06,Alpha-acetolactate decarboxylase,462,462,1.0,CORE
+UM024,alsS,GC024,FM06,Acetolactate synthase,462,462,1.0,CORE
+UM009,eno,GC009,FM01,Enolase,462,462,1.0,CORE
+UM004,fba,GC004,FM01,Fructose-bisphosphate aldolase,462,462,1.0,CORE
+UM006,gap,GC006,FM01,Glyceraldehyde-3-phosphate dehydrogenase,462,462,1.0,CORE
+UM001,glk,GC001,FM01,Glucokinase,462,462,1.0,CORE
+UM016,gnd,GC016,FM03,6-phosphogluconate dehydrogenase,462,462,1.0,CORE
+UM011,ldh,GC011;GC032,FM02;FM07,L-lactate dehydrogenase,462,462,1.0,CORE
+UM012,ldhD,GC012;GC033,FM02;FM07,D-lactate dehydrogenase,462,462,1.0,CORE
+UM027,noxE,GC029,FM07,NADH oxidase,462,462,1.0,CORE
+UM028,npr,GC030,FM07,NADH peroxidase,462,462,1.0,CORE
+UM003,pfk,GC003,FM01,6-phosphofructokinase,462,462,1.0,CORE
+UM002,pgi,GC002,FM01,Glucose-6-phosphate isomerase,462,462,1.0,CORE
+UM007,pgk,GC007,FM01,Phosphoglycerate kinase,462,462,1.0,CORE
+UM015,pgl,GC015,FM03,6-phosphogluconolactonase,462,462,1.0,CORE
+UM008,pgm,GC008,FM01,Phosphoglycerate mutase,462,462,1.0,CORE
+UM026,pox,GC027,FM06,Pyruvate oxidase,462,462,1.0,CORE
+UM019,pta,GC019,FM04,Phosphate acetyltransferase,462,462,1.0,CORE
+UM010,pyk,GC010,FM01,Pyruvate kinase,462,462,1.0,CORE
+UM017,rpe,GC017,FM03,Ribulose-phosphate 3-epimerase,462,462,1.0,CORE
+UM018,rpi,GC018,FM03,Ribose-5-phosphate isomerase,462,462,1.0,CORE
+UM005,tpi,GC005,FM01,Triosephosphate isomerase,462,462,1.0,CORE
+UM013,xfp,GC013,FM03,Phosphoketolase,462,462,1.0,CORE
+UM014,zwf,GC014,FM03,Glucose-6-phosphate dehydrogenase,462,462,1.0,CORE
+UM023,pfl,GC023,FM06,Pyruvate formate-lyase,459,462,0.9935,NEAR_CORE

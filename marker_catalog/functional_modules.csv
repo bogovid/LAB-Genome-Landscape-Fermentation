@@ -1,0 +1,13 @@
+Module_ID,Module_name,Category,Biological_role,Phenotype_relevance
+FM01,EMP_glycolysis,Core_fermentation,Conversion of hexoses to pyruvate through the Embden-Meyerhof-Parnas pathway,Direct
+FM02,Lactate_formation,Core_fermentation,Reduction of pyruvate to lactate with regeneration of NAD+,Direct
+FM03,Phosphoketolase_pathway,Core_fermentation,Alternative carbohydrate fermentation characteristic of heterofermentative metabolism,Direct
+FM04,Acetate_branch,Product_branch,Conversion of acetyl-phosphate or acetyl-CoA toward acetate with potential ATP generation,Direct
+FM05,Ethanol_branch,Product_branch,Reduction of acetyl-derived intermediates toward ethanol and redox balancing,Direct
+FM06,Pyruvate_alternative_fates,Product_branch,Alternative conversion of pyruvate to products other than lactate,Direct
+FM07,NAD_redox_balance,Redox,Regeneration and balancing of NADH and NAD+ during fermentative growth,Direct
+FM08,Carbohydrate_transport,Substrate_acquisition,Transport of fermentable carbohydrates including PTS and non-PTS systems,Supporting
+FM09,Acid_stress_response,Adaptation,Protection against low extracellular pH generated during fermentation,Supporting
+FM10,Proton_homeostasis,Adaptation,Maintenance of intracellular pH and proton gradients under acidic conditions,Supporting
+FM11,Proteolysis_peptide_transport,Nutrient_acquisition,Acquisition of amino acids and peptides in nutrient-rich fermentative environments,Supporting
+FM12,Fermentation_regulation,Regulation,Transcriptional and metabolic regulation of fermentative pathways,Supporting
