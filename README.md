@@ -69,6 +69,12 @@ The repository keeps code and compact validation summaries. FEMS-revision materi
 
 The complete v1.1.0 data snapshot is archived separately on Zenodo and includes the corrected 507-genome marker matrix, assembly-QC table, collapsed 28-marker profiles, recomputed summary tables, and gzip-compressed unique-pair Mash/FastANI tables. Raw reciprocal all-vs-all Mash and FastANI outputs are omitted because the unique-pair tables preserve all values used in the manuscript while removing self-comparisons and reciprocal duplicates.
 
+## Archived releases
+
+- Software/repository snapshot v1.1.0: DOI `10.5281/zenodo.22718746`
+- Supporting data snapshot: DOI `10.5281/zenodo.22718859`
+- GitHub release: `v1.1.0`
+
 ## Reproduction
 
 Run `scripts/analyze_fermentation_landscape.py` to regenerate the principal downstream tables.
