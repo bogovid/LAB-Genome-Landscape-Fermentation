@@ -1,6 +1,6 @@
 # LAB Genome Landscape: Fermentation-associated genomic architecture in lactic acid bacteria
 
-This repository contains the reproducibility package supporting a comparative genomic analysis of fermentation-associated genomic markers in a curated collection of 507 bacterial genomes.
+This repository contains the code and compact reproducibility materials supporting a comparative genomic analysis of fermentation-associated genomic markers in a curated collection of 507 bacterial genomes.
 
 ## Dataset
 
@@ -29,7 +29,7 @@ Marker presence is interpreted as genomic coding potential within this operation
 
 ## v1.1.0 FEMS revision
 
-Version 1.1.0 adds the validation and genome-wide analyses used in the FEMS-ready revision of the manuscript.
+Version 1.1.0 adds validation and genome-wide analyses used in the FEMS-ready revision of the manuscript.
 
 ### Sequence validation
 
@@ -59,22 +59,22 @@ For the 462 Lactiplantibacillus genomes, 106,491 unique FastANI pairs were analy
 
 These results support the conclusion that the targeted 28-marker repertoire remains highly conserved across substantial whole-genome divergence.
 
-## Revision data layout
+## Reproducibility layout
 
-The FEMS revision files are stored under `revision_v1.1/`:
+The repository keeps code and compact validation summaries. FEMS-revision material is under `revision_v1.1/`, including:
 
-- `corrected_matrix/`: corrected fermentation marker matrix
-- `validation/`: sequence-level validation and gene-call correction log
-- `qc/`: recomputed assembly contiguity metrics
-- `genomewide/`: collapsed 28-marker profiles, unique-pair Mash/FastANI tables, and summary
-- `summary_tables/`: recomputed manuscript-supporting tables
+- `validation/`: sequence-level validation and gene-call correction log;
+- `genomewide/`: genome-wide comparison summary;
+- `README.md`: description of the complete versioned archive.
 
-Raw reciprocal all-vs-all Mash and FastANI outputs are not duplicated in the repository because the unique-pair tables retain all values used in the manuscript analyses while removing self-comparisons and reciprocal duplicates.
+The complete v1.1.0 data snapshot is archived separately on Zenodo and includes the corrected 507-genome marker matrix, assembly-QC table, collapsed 28-marker profiles, recomputed summary tables, and gzip-compressed unique-pair Mash/FastANI tables. Raw reciprocal all-vs-all Mash and FastANI outputs are omitted because the unique-pair tables preserve all values used in the manuscript while removing self-comparisons and reciprocal duplicates.
 
 ## Reproduction
 
 Run `scripts/analyze_fermentation_landscape.py` to regenerate the principal downstream tables.
 Run `scripts/plot_genus_module_heatmap.py` to regenerate Figure 1.
+Run `scripts/compute_assembly_qc.py` to recompute assembly contiguity metrics from FASTA files.
+Run `scripts/summarize_genomewide_marker_conservation.py` on the versioned unique-pair tables to reproduce the principal pairwise summaries.
 
 Software versions are recorded in `reproducibility/software_versions.txt`. The v1.1 validation used BLAST+ 2.16.0+, Mash 2.3, and FastANI 1.33.
 
