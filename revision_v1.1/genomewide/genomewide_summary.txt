@@ -1,0 +1,10 @@
+Core LAB unique Mash pairs: 117855
+Identical 28-marker profiles: 106047 (89.980909%)
+Mash distance range: 0.000000 to 1.000000
+Spearman rho, Mash distance vs marker discordance: 0.514690
+Pairs Mash <=0.10: 95035; identical profiles: 95035
+
+Lactiplantibacillus unique FastANI pairs: 106491
+ANI range: 79.4657 to 100.0000
+Identical 28-marker profiles: 105114 (98.706933%)
+Pairs differing at exactly one marker: 1377

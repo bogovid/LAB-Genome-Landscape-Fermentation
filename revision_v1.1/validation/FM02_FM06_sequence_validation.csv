@@ -1,0 +1,44 @@
+Marker,Genome_ID,Species,Accession,BLASTP_identity_pct,BLASTP_query_coverage_pct,BLASTP_evalue,TBLASTN_identity_pct,TBLASTN_query_coverage_pct,TBLASTN_evalue,Positive_control_min_identity_pct,Validation_interpretation
+GC011,LABG_0499,Leuconostoc argentinum,GCF_000179875.1,29.18,95.0,3.1800000000000004e-35,29.18,95.0,4.3e-33,53.156,weak/divergent hit below positive-control range; retain absence cautiously
+GC011,LABG_0500,Leuconostoc citreum,GCF_007954785.1,31.068,95.0,5.9500000000000015e-43,31.068,95.0,4e-40,53.156,weak/divergent hit below positive-control range; retain absence cautiously
+GC011,LABG_0501,Leuconostoc mesenteroides,GCF_000014445.1,28.333,91.0,7.46e-35,28.333,91.0,8.33e-33,53.156,weak/divergent hit below positive-control range; retain absence cautiously
+GC011,LABG_0507,Weissella koreensis,GCF_000219805.1,,,,,,,53.156,no homolog detected; supports genuine absence
+GC012,LABG_0496,Lactobacillus sakei,GCF_054890615.1,24.464,69.0,2.56e-14,,,,32.831,weak/divergent hit below positive-control range; retain absence cautiously
+GC012,LABG_0498,Lactococcus lactis,GCF_003176835.1,23.077,77.0,1.26e-11,,,,32.831,weak/divergent hit below positive-control range; retain absence cautiously
+GC012,LABG_0504,Streptococcus thermophilus,GCF_903886475.1,25.296,71.0,4.31e-16,,,,32.831,weak/divergent hit below positive-control range; retain absence cautiously
+GC023,LABG_0074,Lactiplantibacillus koreensis,GCF_002970915.1,,,,,,,42.023,no homolog detected; supports genuine absence
+GC023,LABG_0075,Lactiplantibacillus kimchii,GCF_002970935.1,,,,,,,42.023,no homolog detected; supports genuine absence
+GC023,LABG_0331,Lactiplantibacillus brownii,GCF_045862825.1,,,,,,,42.023,no homolog detected; supports genuine absence
+GC023,LABG_0483,Lactobacillus acidophilus,GCF_034298135.1,,,,,,,42.023,no homolog detected; supports genuine absence
+GC023,LABG_0484,Lactobacillus brevis,GCF_900475625.1,,,,,,,42.023,no homolog detected; supports genuine absence
+GC023,LABG_0486,Lactobacillus crispatus,GCF_009769205.1,,,,,,,42.023,no homolog detected; supports genuine absence
+GC023,LABG_0487,Lactobacillus delbrueckii subsp. bulgaricus,GCF_000056065.1,,,,,,,42.023,no homolog detected; supports genuine absence
+GC023,LABG_0488,Lactobacillus farciminis,GCF_002706745.1,,,,,,,42.023,no homolog detected; supports genuine absence
+GC023,LABG_0489,Lactobacillus fermentum,GCF_005341425.1,,,,,,,42.023,no homolog detected; supports genuine absence
+GC023,LABG_0490,Lactobacillus gasseri,GCF_000014425.1,,,,,,,42.023,no homolog detected; supports genuine absence
+GC023,LABG_0491,Lactobacillus helveticus,GCF_046109915.1,,,,,,,42.023,no homolog detected; supports genuine absence
+GC023,LABG_0492,Lactobacillus johnsonii,GCF_014058685.1,,,,,,,42.023,no homolog detected; supports genuine absence
+GC023,LABG_0499,Leuconostoc argentinum,GCF_000179875.1,,,,,,,42.023,no homolog detected; supports genuine absence
+GC023,LABG_0500,Leuconostoc citreum,GCF_007954785.1,,,,,,,42.023,no homolog detected; supports genuine absence
+GC023,LABG_0501,Leuconostoc mesenteroides,GCF_000014445.1,,,,,,,42.023,no homolog detected; supports genuine absence
+GC023,LABG_0502,Pediococcus pentosaceus,GCF_000014505.1,,,,,,,42.023,no homolog detected; supports genuine absence
+GC023,LABG_0505,Weissella cibaria,GCF_001951095.1,,,,,,,42.023,no homolog detected; supports genuine absence
+GC023,LABG_0506,Weissella confusa,GCF_004771075.1,,,,,,,42.023,no homolog detected; supports genuine absence
+GC023,LABG_0507,Weissella koreensis,GCF_000219805.1,,,,,,,42.023,no homolog detected; supports genuine absence
+GC024,LABG_0483,Lactobacillus acidophilus,GCF_034298135.1,23.583,95.0,7.3e-37,23.583,97.0,6.930000000000001e-36,56.577,weak/divergent hit below positive-control range; retain absence cautiously
+GC024,LABG_0486,Lactobacillus crispatus,GCF_009769205.1,23.358,95.0,8.439999999999999e-38,22.951,95.0,9.31e-37,56.577,weak/divergent hit below positive-control range; retain absence cautiously
+GC024,LABG_0487,Lactobacillus delbrueckii subsp. bulgaricus,GCF_000056065.1,23.036,95.0,1.07e-27,23.604,95.0,3.87e-27,56.577,weak/divergent hit below positive-control range; retain absence cautiously
+GC024,LABG_0490,Lactobacillus gasseri,GCF_000014425.1,23.843,96.0,7.07e-39,23.843,98.0,7.18e-38,56.577,weak/divergent hit below positive-control range; retain absence cautiously
+GC024,LABG_0491,Lactobacillus helveticus,GCF_046109915.1,22.921,95.0,3.84e-36,22.921,95.0,2.35e-35,56.577,weak/divergent hit below positive-control range; retain absence cautiously
+GC024,LABG_0507,Weissella koreensis,GCF_000219805.1,24.501,97.0,1.37e-41,24.685,97.0,1.34e-40,56.577,weak/divergent hit below positive-control range; retain absence cautiously
+GC025,LABG_0483,Lactobacillus acidophilus,GCF_034298135.1,,,,,,,31.381,no homolog detected; supports genuine absence
+GC025,LABG_0486,Lactobacillus crispatus,GCF_009769205.1,,,,,,,31.381,no homolog detected; supports genuine absence
+GC025,LABG_0487,Lactobacillus delbrueckii subsp. bulgaricus,GCF_000056065.1,,,,,,,31.381,no homolog detected; supports genuine absence
+GC025,LABG_0490,Lactobacillus gasseri,GCF_000014425.1,,,,,,,31.381,no homolog detected; supports genuine absence
+GC025,LABG_0491,Lactobacillus helveticus,GCF_046109915.1,,,,,,,31.381,no homolog detected; supports genuine absence
+GC025,LABG_0506,Weissella confusa,GCF_004771075.1,40.426,97.0,9.81e-53,40.426,97.0,3.5300000000000004e-36,31.381,annotation false-negative; reclassify as present
+GC025,LABG_0507,Weissella koreensis,GCF_000219805.1,,,,,,,31.381,no homolog detected; supports genuine absence
+GC027,LABG_0489,Lactobacillus fermentum,GCF_005341425.1,24.205,88.0,5.979999999999999e-38,24.199,88.0,5.2000000000000006e-33,37.119,weak/divergent hit below positive-control range; retain absence cautiously
+GC027,LABG_0493,Lactobacillus murinus,GCF_003288115.1,23.643,89.0,3.2000000000000004e-44,23.633,90.0,7.66e-39,37.119,weak/divergent hit below positive-control range; retain absence cautiously
+GC027,LABG_0500,Leuconostoc citreum,GCF_007954785.1,23.171,89.0,3.53e-33,23.393,88.0,1.45e-28,37.119,weak/divergent hit below positive-control range; retain absence cautiously
+GC027,LABG_0504,Streptococcus thermophilus,GCF_903886475.1,30.426,78.0,9.51e-65,30.39,89.0,2.82e-57,37.119,weak/divergent hit below positive-control range; retain absence cautiously
