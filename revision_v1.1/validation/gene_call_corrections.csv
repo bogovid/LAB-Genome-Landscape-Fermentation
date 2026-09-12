@@ -1,0 +1,2 @@
+Genome_ID,Species,Accession,Marker,Gene_symbol,Original_call,Revised_call,Reason
+LABG_0506,Weissella confusa,GCF_004771075.1,GC025,alsD,0,1,Sequence-level rescue: concordant full-length BLASTP/TBLASTN homolog; original Prokka-based call was false-negative.
